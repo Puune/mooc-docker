@@ -1,0 +1,33 @@
+panuli@LAPTOP-I5QKNJTG:/mnt/d/Git/mooc-docker$ docker rm 73 f4 20
+73
+f4
+20
+panuli@LAPTOP-I5QKNJTG:/mnt/d/Git/mooc-docker$ docker rmi nginx
+Untagged: nginx:latest
+Untagged: nginx@sha256:30dfa439718a17baafefadf16c5e7c9d0a1cde97b4fd84f63b69e13513be7097
+Deleted: sha256:9beeba249f3ee158d3e495a6ac25c5667ae2de8a43ac2a8bfd2bf687a58c06c9
+Deleted: sha256:8fb6373b4cca3383756d7fd7843dd92f95827e5f2913609e09a9621dcddb3752
+Deleted: sha256:8b09841626797a03a9fe5e73aa38aeacf9ff0ce85a3004236ff35234eec3b35c
+Deleted: sha256:ffc9b21953f4cd7956cdf532a5db04ff0a2daa7475ad796f1bad58cfbaf77a07
+panuli@LAPTOP-I5QKNJTG:/mnt/d/Git/mooc-docker$ docker rmi couchbase
+Untagged: couchbase:latest
+Untagged: couchbase@sha256:059365e37a618f31a1b379e6047e6c1ad4eb4076456d9931cdee462112cd5fb8
+Deleted: sha256:0215190196397077da0e96d8ae41ebb73ba1f71c003612dab40d7e72ea615e1b
+Deleted: sha256:9b3410f5af4829f5ecc5c8017537362ebc40694f50a16c80ee9e137302a693aa
+Deleted: sha256:08cbf3c5ec725d1faccada8c469851731082ed771779ee9d82df19ac38f66368
+Deleted: sha256:e25cbe7c0895d8fb7a92a5b4823eaff98aba84e07a246243328244fdca6e1408
+Deleted: sha256:41f20d1f3b0e81fb75fd0c2dec271ab4e551abbe9eaa35ec37a6a0a1b8836bd6
+Deleted: sha256:f0b8c81373df629a15921f0241e36b08155e4fee67abcb0de9fc762feb2d853e
+Deleted: sha256:e746896db6d7c45d5313196774b6085ff76753d234bd74908635d83cdb379b22
+Deleted: sha256:c2659755b5ff3809f1772b47eae346d0436e366721865bcdabacda320844a756
+Deleted: sha256:e7e9b398cd73595c97b5d35415d6ab31809d9f3cf4734b608764dc3b1e958149
+Deleted: sha256:ba33c875feb6c80e32e614b13b8c1324207366a14d9227e66e96a6b1dd7c8185
+Deleted: sha256:a83c92a7c7a0f4a52fc74fa38496be9a5e6b738bc5fd5d60e54768fed238c173
+Deleted: sha256:c6a36d55655e576fc8166a32fd05e281d03bedc26b1118902e92e7ba421dfa72
+Deleted: sha256:d1c997f15060e07ff557383387d6839e0377873837025fc843fa5d94bea2c4e5
+Deleted: sha256:b592b5433bbffb04389a0e6349cdba6af8d006779bbb93beb69aa77d59133be4
+panuli@LAPTOP-I5QKNJTG:/mnt/d/Git/mooc-docker$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+panuli@LAPTOP-I5QKNJTG:/mnt/d/Git/mooc-docker$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+panuli@LAPTOP-I5QKNJTG:/mnt/d/Git/mooc-docker$ 
